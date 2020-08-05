@@ -4,7 +4,6 @@ const messageInput = document.querySelector('#message');
 const messageForm = document.querySelector('#send-container');
 const messageContainer = document.querySelector('#message-container');
 
-// Before join the chat
 const name = prompt("what is your name?");
 appendMessage("you joined");
 
